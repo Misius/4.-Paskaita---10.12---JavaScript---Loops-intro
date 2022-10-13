@@ -1,15 +1,24 @@
 'use strict';
-console.log('./scripts/while.js');
-let vardas  = 'Mozart';
+console.log('while.js');
 
-console.log('Vardas', vardas);
 
-const jaison = {
-    vardas: 'Miau',
-    vidinisObjektas: {
-        age: 15,
-    },
-    kitasVidinisObjektas: {
-        age:15,
-    },
-}
+// let a = 14;
+// while (a <= 35) {
+//     console.log(a);
+//     a++;
+// }  
+// let b = 0;
+// while (b <= 100) {
+//     console.log(b);
+//     b += 3;
+// }
+// let c = 50;
+// while (c >= 24) {
+//     console.log(c);
+//     c--;
+// }
+
+let i = 50;
+do {
+    i--;
+} while (i >= 24)
