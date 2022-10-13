@@ -65,14 +65,13 @@ console.log('for.js');
 // 7.1 kiek kartu kompiuteris mes kauliukus kol ismes 12?
 
 
-let i = 2 ;
-let a = 0;
-let b = 0;
-while (i  !== 12){
-    i = Math.trunc((Math.random() * 12) + 1 );
-    a++;
+// let i = 2 ;
+// let a = 0;
+// while (i  !== 12){
+//     i = Math.trunc((Math.random() * 12) + 1 );
+//     a++;
    
-}
- console.log(a);
+// }
+//  console.log(a);
 
  // 7.2 kiek kartu kompiuteris mes kauliukus kol daugiau nei 6?
