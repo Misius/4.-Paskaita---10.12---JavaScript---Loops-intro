@@ -75,3 +75,62 @@ console.log('for.js');
 //  console.log(a);
 
  // 7.2 kiek kartu kompiuteris mes kauliukus kol daugiau nei 6?
+
+// let i = 2 ;
+// let a = 0;
+// while (i < 6) {
+//     i = Math.trunc((Math.random() * 12) + 1 );
+//     a++;  
+    
+// }
+// console.log(a);
+
+
+// 8. Suskaiciuoti kiek skaiciau 4 kartotiniu nuo 0 iki 160
+
+
+// 9. Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu
+// pvz, -10, -9, -8, ....
+
+
+// 10. Sudeti skaicius nuo 10 iki 20.
+// 10.1  sudedant atspausdinti kievieno zingsnio informacija
+
+
+// 10.2. atspausdinti galutini rezultata
+
+
+// 11. sukuriam kintamji aukstis = 5. Panaudojus kintamji aukstis nupiesti eglute
+
+
+// 12. atspausdinti consoleje 3 random reiksmes su 2 skaiciais po kablelio li taguose
+
+//     <li>2.48</li>
+
+//     <li>5.82</li>
+
+//     <li>9.40</li>
+
+
+
+// 13. atspausdinti konsoleje skaicius nuo 12 iki 24 padaugintus is 3
+
+
+
+// 14. atspausdinti konsoleje skaicius nuo 3 iki 25, jei skaicius lyginis prirasyti prie jo zodeli 'lyginis'
+// 14.1 prideti dar prie skaiciu kurie yra 3 kartotiniai 'triju kartotinis'
+
+
+// užduotis
+
+for (let i = 1; i <= 10; i++) {
+    if (i === 2) {
+        console.log(`${i} Aš esu antras ciklas`);
+        continue;
+    }
+    if (i === 10) {
+        console.log(`${i} Paskutinis ciklas`);
+        continue;
+    }
+    console.log(i);
+}

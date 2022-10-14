@@ -16,10 +16,10 @@ console.log('break.js');
 //     }
 // }
 
-for (let i = 1; i <= 20; i++) {
+// for (let i = 1; i <= 20; i++) {
     
-    if (i === 17 || i === 4 || i === 15) {
-        continue;
-    }
-    console.log(i);
-}
+//     if (i === 17 || i === 4 || i === 15) {
+//         continue;
+//     }
+//     console.log(i);
+// }
